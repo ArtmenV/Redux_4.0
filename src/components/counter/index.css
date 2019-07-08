@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+}
+.red {
+  width: 20%;
+  height: 10%;
+}
+.green {
+  width: 20%;
+  height: 10%;
+}
