@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./index.css";
 import { connect } from "react-redux";
 import { increase, decrease } from "../../redux/ac";
+import { Button } from "react-bulma-components/full";
 
 class Counter extends Component {
   render() {
@@ -10,12 +11,12 @@ class Counter extends Component {
         <div className="container">
           <h1>{count}</h1>
           <div className="container__count2">
-            <button className="green" onClick={increase}>
+            <Button size="large" color="success" className="green" onClick={increase}>
               plus
-            </button>
-            <button className="red" onClick={decrease}>
+            </Button>
+            <Button size="large" color="danger" className="red" onClick={decrease}>
               minus
-            </button>
+            </Button>
           </div>
         </div>
     );

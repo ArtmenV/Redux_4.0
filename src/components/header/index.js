@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <div className="container__header">
       <ul className="container__lineListHeader">
-        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><NavLink to="/contact" style={{ textDecoration: 'none' }}>Contact</NavLink></li>
         <li>about su</li>
         <li>apportunity</li>
         <li>link social</li>
-        <li><NavLink to="/counter">Counter</NavLink></li>
+        <li><NavLink to="/counter" style={{ textDecoration: 'none' }}>Counter</NavLink></li>
       </ul>
     </div>
   )
